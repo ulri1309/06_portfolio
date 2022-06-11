@@ -1,0 +1,226 @@
+* {
+  all: unset;
+  display: revert;
+  cursor: revert;
+  box-sizing: border-box;
+}
+
+li {
+  list-style-type: none;
+}
+
+.menu li {
+  display: inline-block;
+}
+.menu a {
+  margin-right: 10px;
+  margin-left: 10px;
+  font-size: 30px;
+  font-family: "Pragati Narrow", sans-serif;
+  letter-spacing: -2px;
+  color: #ff6551;
+}
+
+body {
+  margin-left: 120px;
+  margin-right: 120px;
+  margin-bottom: 50px;
+  background-color: #fffcf4;
+}
+
+/*---------FORSIDE------------*/
+
+.forside_grid1 h1 {
+  font-family: "Antonio", sans-serif;
+  font-size: 70px;
+  letter-spacing: -4px;
+  color: #ff6551;
+}
+.fornavn h1 {
+  font-size: 90px;
+}
+
+.forside_grid2 {
+  font-family: "DM Serif Text", serif;
+  font-size: 40px;
+  color: #396e3d;
+}
+
+/*----------PORTFOLIO---------*/
+
+.p_header {
+  margin-top: 20px;
+  text-align: center;
+  max-width: none;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+  margin-bottom: 30px;
+}
+.p_header h1 {
+  font-size: 110px;
+  display: inline-block;
+  font-family: "Anton", sans-serif;
+}
+
+.portfolio h1 {
+  font-size: 110px;
+  font-family: "Pragati Narrow", sans-serif;
+  margin-top: -45px;
+}
+
+.portfolio h2 {
+  font-size: 14px;
+  font-family: "Playfair Display", serif;
+  color: #ff6551;
+  margin-top: -50px;
+  margin-bottom: 10px;
+}
+
+.portfolio div {
+  margin-top: 50px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
+}
+
+/*-------------INFO------------*/
+
+.info h1 {
+  font-family: "Pragati Narrow", sans-serif;
+  font-size: 70px;
+  letter-spacing: -2px;
+  color: #ff6551;
+  margin-bottom: 30px;
+}
+
+.info h2 {
+  font-family: "Pragati Narrow", sans-serif;
+  font-size: 35px;
+  letter-spacing: -2px;
+  color: #ff6551;
+  margin-bottom: 30px;
+}
+
+.info h3 {
+  font-size: 16px;
+  font-family: "DM Serif Text", serif;
+  margin-bottom: 5px;
+  margin-top: -5px;
+}
+.liste {
+  list-style: none;
+  line-height: -10;
+}
+
+/* ul p {
+  line-height: 1;
+} */
+
+.infotekst {
+  margin-top: -36px;
+}
+
+.info p {
+  font-family: "Playfair Display", serif;
+  font-size: 14px;
+  line-height: 1.5;
+  max-width: 40ch;
+  margin-bottom: 25px;
+}
+
+/*--------------TEMA 2---------------*/
+
+.tema2 h1 {
+  font-family: "Pragati Narrow", sans-serif;
+  font-size: 70px;
+  letter-spacing: -2px;
+  color: #ff6551;
+  margin-bottom: 30px;
+  line-height: 1;
+  max-width: 12ch;
+}
+
+.titel {
+  margin-top: -36px;
+}
+
+.tema2 p {
+  font-family: "Playfair Display", serif;
+  font-size: 14px;
+  line-height: 1.5;
+  max-width: 40ch;
+  margin-bottom: 25px;
+}
+
+/*------------TEMA 3-----------*/
+
+.tema3 h1 {
+  font-family: "Pragati Narrow", sans-serif;
+  font-size: 70px;
+  letter-spacing: -2px;
+  color: #ff6551;
+  margin-bottom: 30px;
+  line-height: 1;
+  max-width: 12ch;
+}
+
+.titel_3 {
+  margin-top: -36px;
+}
+
+.tema3 p {
+  font-family: "Playfair Display", serif;
+  font-size: 14px;
+  line-height: 1.5;
+  max-width: 40ch;
+  margin-bottom: 25px;
+}
+
+/*------------TEMA 4-----------*/
+
+.tema4 h1 {
+  font-family: "Pragati Narrow", sans-serif;
+  font-size: 70px;
+  letter-spacing: -2px;
+  color: #ff6551;
+  margin-bottom: 30px;
+  line-height: 1;
+  max-width: 12ch;
+}
+
+.titel_4 {
+  margin-top: -36px;
+}
+
+.tema4 p {
+  font-family: "Playfair Display", serif;
+  font-size: 14px;
+  line-height: 1.5;
+  max-width: 40ch;
+  margin-bottom: 25px;
+}
+
+/*------------TEMA 4-----------*/
+
+.tema5 h1 {
+  font-family: "Pragati Narrow", sans-serif;
+  font-size: 70px;
+  letter-spacing: -2px;
+  color: #ff6551;
+  margin-bottom: 30px;
+  line-height: 1;
+  max-width: 12ch;
+}
+
+.titel_5 {
+  margin-top: -36px;
+}
+
+.tema5 p {
+  font-family: "Playfair Display", serif;
+  font-size: 14px;
+  line-height: 1.5;
+  max-width: 40ch;
+  margin-bottom: 25px;
+}
