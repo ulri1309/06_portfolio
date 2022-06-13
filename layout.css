@@ -5,75 +5,77 @@ img {
   display: inline-block;
 }
 
-/*-----------FORSIDE------------*/
+@media (min-width: 927px) {
+  /*-----------FORSIDE------------*/
 
-.forside_container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-.forside_grid1 {
-  grid-template-columns: 1fr;
-}
-.forside_grid2 {
-  display: grid;
-  grid-column: 2;
-  text-align: right;
-}
+  .forside_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .forside_grid1 {
+    grid-template-columns: 1fr;
+  }
+  .forside_grid2 {
+    display: grid;
+    grid-column: 2;
+    text-align: right;
+  }
 
-/*-----------PORTFOLIO----------*/
+  /*-----------PORTFOLIO----------*/
 
-.portfolio {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  gap: 20px;
-}
+  .portfolio {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+  }
 
-.portfolio img {
-  max-width: 80%;
-  max-height: 80%;
-}
+  .portfolio img {
+    max-width: 80%;
+    max-height: 80%;
+  }
 
-/*-----------INFO--------------*/
-.info {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 20px;
-  margin-top: 110px;
-}
+  /*-----------INFO--------------*/
+  .info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-top: 110px;
+  }
 
-/*------------TEMA 2------------*/
+  /*------------TEMA 2------------*/
 
-.tema2 {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 20px;
-  margin-top: 110px;
-}
+  .tema2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-top: 110px;
+  }
 
-/*------------TEMA 3------------*/
+  /*------------TEMA 3------------*/
 
-.tema3 {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 20px;
-  margin-top: 110px;
-}
+  .tema3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-top: 110px;
+  }
 
-/*------------TEMA 4------------*/
+  /*------------TEMA 4------------*/
 
-.tema4 {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 20px;
-  margin-top: 110px;
-}
+  .tema4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-top: 110px;
+  }
 
-/*------------TEMA 5------------*/
+  /*------------TEMA 5------------*/
 
-.tema5 {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 20px;
-  margin-top: 110px;
+  .tema5 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-top: 110px;
+  }
 }
