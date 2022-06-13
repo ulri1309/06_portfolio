@@ -5,7 +5,7 @@ img {
   display: inline-block;
 }
 
-@media (min-width: 927px) {
+@media (min-width: 995px) {
   /*-----------FORSIDE------------*/
 
   .forside_container {

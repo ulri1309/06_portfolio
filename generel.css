@@ -124,9 +124,9 @@ footer p {
   list-style: none;
 }
 
-/* ul p {
-  line-height: 1;
-} */
+.info {
+  border-bottom: 1px solid black;
+}
 
 .infotekst {
   margin-top: -36px;
@@ -172,6 +172,13 @@ footer p {
   text-decoration: none;
 }
 
+.tema2 {
+  border-bottom: 1px solid black;
+}
+.tema2 div {
+  margin-bottom: 30px;
+}
+
 /*------------TEMA 3-----------*/
 
 .tema3 h1 {
@@ -195,6 +202,14 @@ footer p {
   line-height: 1.5;
   max-width: 40ch;
   margin-bottom: 25px;
+}
+
+.tema3 {
+  border-bottom: 1px solid black;
+}
+
+.tema3 div {
+  margin-bottom: 30px;
 }
 
 /*------------TEMA 4-----------*/
@@ -222,6 +237,14 @@ footer p {
   margin-bottom: 25px;
 }
 
+.tema4 {
+  border-bottom: 1px solid black;
+}
+
+.tema4 div {
+  margin-bottom: 30px;
+}
+
 /*------------TEMA 5-----------*/
 
 .tema5 h1 {
@@ -247,6 +270,14 @@ footer p {
   margin-bottom: 25px;
 }
 
+.tema5 {
+  border-bottom: 1px solid black;
+}
+
+.tema5 div {
+  margin-bottom: 30px;
+}
+
 /*---------TEMAHEADER---------*/
 
 .temaheader {
@@ -263,7 +294,7 @@ footer p {
   font-family: "Anton", sans-serif;
 }
 
-@media (max-width: 926px) {
+@media (max-width: 994px) {
   body {
     margin: 20px;
   }
