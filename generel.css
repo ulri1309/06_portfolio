@@ -28,6 +28,19 @@ li {
   color: #ff6551;
 }
 
+.menu_forside li {
+  display: inline-block;
+}
+.menu_forside a {
+  margin-right: 10px;
+  margin-left: 10px;
+  font-size: 30px;
+  font-family: "Pragati Narrow", sans-serif;
+  letter-spacing: -1px;
+  color: #ff6551;
+  place-items: center;
+}
+
 footer {
   text-align: center;
   position: sticky;
@@ -42,22 +55,17 @@ footer p {
 
 /*---------FORSIDE------------*/
 
-.forside_grid1 h1 {
+.forside_grid1 {
   font-family: "Antonio", sans-serif;
   font-size: 70px;
   letter-spacing: -4px;
-  color: #ff6551;
-}
-.fornavn h1 {
-  font-size: 90px;
+  color: white;
+  text-align: center;
 }
 
-.forside_grid2 {
-  font-family: "DM Serif Text", serif;
-  font-size: 40px;
-  color: #396e3d;
+.video_container {
+  z-index: -1;
 }
-
 /*----------PORTFOLIO---------*/
 
 .p_header {
