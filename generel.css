@@ -528,18 +528,3 @@ footer p {
     transform: translateX(0%);
   }
 }
-
-.slide_left {
-  animation-name: slide_left_kf;
-  animation-iteration-count: 1;
-  animation-duration: 1s;
-}
-
-@keyframes slide_left_kf {
-  0% {
-    transform: translateX(200%);
-  }
-  100% {
-    transform: translateX(0%);
-  }
-}
