@@ -28,13 +28,18 @@ li {
   color: #ff6551;
 }
 
+.menu_forside a:hover {
+  cursor: pointer;
+  color: red;
+}
+
 .menu_forside li {
   display: inline-block;
 }
 .menu_forside a {
-  margin-right: 10px;
-  margin-left: 10px;
-  font-size: 30px;
+  margin-right: 30px;
+  margin-left: 30px;
+  font-size: 45px;
   font-family: "Pragati Narrow", sans-serif;
   letter-spacing: -1px;
   color: white;
@@ -63,8 +68,8 @@ footer p {
 
 .forside_grid1 {
   font-family: "Antonio", sans-serif;
-  font-size: 70px;
-  letter-spacing: -4px;
+  font-size: 81px;
+  letter-spacing: -3px;
   color: white;
   text-align: center;
 }
@@ -112,6 +117,12 @@ footer p {
   padding-bottom: 10px;
   border-bottom: 1px solid black;
   border-left: 1px solid black;
+}
+
+.portfolio div:hover {
+  opacity: 0.85;
+  cursor: pointer;
+  filter: brightness(1);
 }
 
 /*-------------INFO------------*/
@@ -323,7 +334,7 @@ footer p {
 
   /*--------FORSIDE--------*/
 
-  .menu_forside a {
+  /* .menu_forside a {
     margin-right: 10px;
     margin-left: 10px;
     font-size: 25px;
@@ -336,7 +347,7 @@ footer p {
   .menu_forside {
     text-align: center;
     padding-top: 200px;
-  }
+  } */
 
   /*--------PORTFOLIO------*/
 
@@ -408,5 +419,26 @@ footer p {
 
   .tema5 h1 {
     font-size: 50px;
+  }
+}
+
+@media (max-width: 582px) {
+  .menu_forside a {
+    margin-right: 30px;
+    margin-left: 30px;
+    font-size: 28px;
+    font-family: "Pragati Narrow", sans-serif;
+    letter-spacing: -1px;
+    color: white;
+    place-items: center;
+  }
+
+  .menu_forside {
+    text-align: center;
+    padding-top: 200px;
+  }
+
+  .forside_grid1 h1 {
+    font-size: 70px;
   }
 }
