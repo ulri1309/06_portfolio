@@ -61,7 +61,8 @@ footer p {
   max-width: none;
   padding-bottom: 2px;
   padding-top: 90px;
-  font-family: "Pragati Narrow", sans-serif;
+  font-family: "Playfair Display", serif;
+  font-size: 11px;
 }
 
 /*---------FORSIDE------------*/
@@ -186,6 +187,15 @@ footer p {
   margin-top: -36px;
 }
 
+.titel a {
+  font-family: "Playfair Display", serif;
+  font-size: 14px;
+  line-height: 1.5;
+  max-width: 40ch;
+  margin-bottom: 25px;
+  font-weight: bold;
+}
+
 .tema2 p {
   font-family: "Playfair Display", serif;
   font-size: 14px;
@@ -223,6 +233,15 @@ footer p {
 
 .titel_3 {
   margin-top: -36px;
+}
+
+.titel_3 a {
+  font-family: "Playfair Display", serif;
+  font-size: 14px;
+  line-height: 1.5;
+  max-width: 40ch;
+  margin-bottom: 25px;
+  font-weight: bold;
 }
 
 .tema3 p {
@@ -266,6 +285,15 @@ footer p {
   margin-bottom: 25px;
 }
 
+.titel_4 a {
+  font-family: "Playfair Display", serif;
+  font-size: 14px;
+  line-height: 1.5;
+  max-width: 40ch;
+  margin-bottom: 25px;
+  font-weight: bold;
+}
+
 .tema4 {
   border-bottom: 1px solid black;
 }
@@ -291,6 +319,15 @@ footer p {
   margin-top: -36px;
 }
 
+.titel_5 a {
+  font-family: "Playfair Display", serif;
+  font-size: 14px;
+  line-height: 1.5;
+  max-width: 40ch;
+  margin-bottom: 25px;
+  font-weight: bold;
+}
+
 .tema5 p {
   font-family: "Playfair Display", serif;
   font-size: 14px;
@@ -304,6 +341,48 @@ footer p {
 }
 
 .tema5 div {
+  margin-bottom: 30px;
+}
+
+/*------------TEMA 6-----------*/
+
+.tema6 h1 {
+  font-family: "Pragati Narrow", sans-serif;
+  font-size: 70px;
+  letter-spacing: -2px;
+  color: #ff6551;
+  margin-bottom: 30px;
+  margin-top: 27px;
+  line-height: 1;
+  max-width: 12ch;
+}
+
+.titel_6 {
+  margin-top: -36px;
+}
+
+.titel_6 a {
+  font-family: "Playfair Display", serif;
+  font-size: 14px;
+  line-height: 1.5;
+  max-width: 40ch;
+  margin-bottom: 25px;
+  font-weight: bold;
+}
+
+.tema6 p {
+  font-family: "Playfair Display", serif;
+  font-size: 14px;
+  line-height: 1.5;
+  max-width: 40ch;
+  margin-bottom: 25px;
+}
+
+.tema6 {
+  border-bottom: 1px solid black;
+}
+
+.tema6 div {
   margin-bottom: 30px;
 }
 
@@ -331,25 +410,6 @@ footer p {
   .temaheader h1 {
     font-size: 80px;
   }
-
-  /*--------FORSIDE--------*/
-
-  /* .menu_forside a {
-    margin-right: 10px;
-    margin-left: 10px;
-    font-size: 25px;
-    font-family: "Pragati Narrow", sans-serif;
-    letter-spacing: -1px;
-    color: white;
-    place-items: center;
-  }
-
-  .menu_forside {
-    text-align: center;
-    padding-top: 200px;
-  } */
-
-  /*--------PORTFOLIO------*/
 
   .p_header h1 {
     font-size: 80px;
