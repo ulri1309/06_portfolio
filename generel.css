@@ -75,7 +75,7 @@ footer p {
   text-align: center;
 }
 
-.forside_grid1 h1 {
+.forside_grid1 h2 {
   margin-top: 30px;
 }
 
@@ -98,13 +98,13 @@ footer p {
   font-family: "Anton", sans-serif;
 }
 
-.portfolio h1 {
+.portfolio h2 {
   font-size: 110px;
   font-family: "Pragati Narrow", sans-serif;
   margin-top: -45px;
 }
 
-.portfolio h2 {
+.portfolio h3 {
   font-size: 14px;
   font-family: "Playfair Display", serif;
   color: #ff6551;
@@ -128,7 +128,7 @@ footer p {
 
 /*-------------INFO------------*/
 
-.overskrift {
+.info h2 {
   font-family: "Pragati Narrow", sans-serif;
   font-size: 70px;
   letter-spacing: -2px;
@@ -136,7 +136,7 @@ footer p {
   margin-bottom: 30px;
 }
 
-.info h2 {
+.info h3 {
   font-family: "Pragati Narrow", sans-serif;
   font-size: 35px;
   letter-spacing: -2px;
@@ -144,7 +144,7 @@ footer p {
   margin-bottom: 30px;
 }
 
-.info h3 {
+.info h4 {
   font-size: 16px;
   font-family: "DM Serif Text", serif;
   margin-bottom: 5px;
@@ -172,7 +172,7 @@ footer p {
 
 /*--------------TEMA 2---------------*/
 
-.tema2 h1 {
+.tema2 h2 {
   font-family: "Pragati Narrow", sans-serif;
   font-size: 70px;
   letter-spacing: -2px;
@@ -220,7 +220,7 @@ footer p {
 
 /*------------TEMA 3-----------*/
 
-.tema3 h1 {
+.tema3 h2 {
   font-family: "Pragati Narrow", sans-serif;
   font-size: 70px;
   letter-spacing: -2px;
@@ -262,7 +262,7 @@ footer p {
 
 /*------------TEMA 4-----------*/
 
-.tema4 h1 {
+.tema4 h2 {
   font-family: "Pragati Narrow", sans-serif;
   font-size: 70px;
   letter-spacing: -2px;
@@ -304,7 +304,7 @@ footer p {
 
 /*------------TEMA 5-----------*/
 
-.tema5 h1 {
+.tema5 h2 {
   font-family: "Pragati Narrow", sans-serif;
   font-size: 70px;
   letter-spacing: -2px;
@@ -346,7 +346,7 @@ footer p {
 
 /*------------TEMA 6-----------*/
 
-.tema6 h1 {
+.tema6 h2 {
   font-family: "Pragati Narrow", sans-serif;
   font-size: 70px;
   letter-spacing: -2px;
@@ -407,11 +407,11 @@ footer p {
     margin: 20px;
   }
 
-  .temaheader h1 {
+  .temaheader h2 {
     font-size: 80px;
   }
 
-  .p_header h1 {
+  .p_header h2 {
     font-size: 80px;
   }
 
@@ -423,7 +423,7 @@ footer p {
     margin-top: 90px;
   }
 
-  .portfolio h2 {
+  .portfolio h3 {
     font-size: 12px;
   }
 
@@ -434,12 +434,12 @@ footer p {
     place-items: center;
   }
 
-  .info h1 {
+  .info h2 {
     font-size: 55px;
     margin-bottom: 10px;
   }
 
-  .info h2 {
+  .info h3 {
     font-size: 30px;
   }
 
@@ -450,7 +450,7 @@ footer p {
     place-items: center;
   }
 
-  .tema2 h1 {
+  .tema2 h2 {
     font-size: 50px;
   }
 
@@ -459,7 +459,7 @@ footer p {
     place-items: center;
   }
 
-  .tema3 h1 {
+  .tema3 h2 {
     font-size: 50px;
   }
 
@@ -468,7 +468,7 @@ footer p {
     place-items: center;
   }
 
-  .tema4 h1 {
+  .tema4 h2 {
     font-size: 50px;
   }
 
@@ -477,7 +477,7 @@ footer p {
     place-items: center;
   }
 
-  .tema5 h1 {
+  .tema5 h2 {
     font-size: 50px;
   }
 
@@ -486,7 +486,7 @@ footer p {
     place-items: center;
   }
 
-  .tema6 h1 {
+  .tema6 h2 {
     font-size: 50px;
   }
 }
@@ -507,7 +507,7 @@ footer p {
     padding-top: 200px;
   }
 
-  .forside_grid1 h1 {
+  .forside_grid1 h2 {
     font-size: 70px;
   }
 }
