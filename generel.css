@@ -128,7 +128,7 @@ footer p {
 
 /*-------------INFO------------*/
 
-.info h1 {
+.overskrift {
   font-family: "Pragati Narrow", sans-serif;
   font-size: 70px;
   letter-spacing: -2px;
@@ -480,6 +480,15 @@ footer p {
   .tema5 h1 {
     font-size: 50px;
   }
+
+  .tema6 {
+    display: grid;
+    place-items: center;
+  }
+
+  .tema6 h1 {
+    font-size: 50px;
+  }
 }
 
 @media (max-width: 582px) {
@@ -500,5 +509,37 @@ footer p {
 
   .forside_grid1 h1 {
     font-size: 70px;
+  }
+}
+
+/*----------ANIMATION---------*/
+
+.slide_right {
+  animation-name: slide_right_kf;
+  animation-iteration-count: 1;
+  animation-duration: 1s;
+}
+
+@keyframes slide_right_kf {
+  0% {
+    transform: translateX(-200%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+.slide_left {
+  animation-name: slide_left_kf;
+  animation-iteration-count: 1;
+  animation-duration: 1s;
+}
+
+@keyframes slide_left_kf {
+  0% {
+    transform: translateX(200%);
+  }
+  100% {
+    transform: translateX(0%);
   }
 }
